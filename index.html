@@ -2,25 +2,174 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Een blok positioneren</title>
     <link rel="stylesheet" href="./styles.css">
-    <title>Title</title>
 </head>
 <body>
-<header class="outer-container">
-    <nav class="navbar">
-        <ul>
-            <li><a href="">Case-Studies</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">contact us</a></li>
-        </ul>
-    </nav>
-    <div class="hero-section">
-     <h1>Your website is an investment in the succes of your business.</h1>
-        <p>We are here to help your succeed.</p>
-        <button type="button" class="cta-btn">Let's work together</button>
-    </div>
-    <div class="swirl">Swirl</div>
-    <div class="skewed">skewed</div>
+<header class="header__outer-container">
+    <div class="header__inner-container">
+        <nav class="header__navbar">
+            <ul class="header__navbar-list">
+                <li class="header__navbar-item"><a href="./pages/not found">case studies</a></li>
+                <li class="header__navbar-item"><a href="">services</a></li>
+                <li class="header__navbar-item"><a href="">contact us</a></li>
+            </ul>
+        </nav>
+        <div class="header__hero-section">
+            <h1 class="header__title">Your website is an investment in the<br> succes of your business.</h1>
+            <p class="header__payoff">We are here tot help you succeed. Let's work</p>
+            <button class="button--active">let's work together</button>
+        </div>
+        <div class="header__squiggle__line_strip"><object><embed src="./assets/squiggle_line_stripe.svg"></object></div></div>
+
 </header>
+
+<main>
+    <!-- intro -->
+    <section class="intro__outer-container">
+        <div class="intro__inner-container">
+
+            <!--intro text -->
+            <section class="intro__section">
+                <h2 class="intro--text">Rekupe is a digital agency in Los Angeles.<br>
+                    We us strategic UX, SEO optimization and beautiful visual designs to help your business grow.<br> We
+                    see every project as a fresh opportunity, pushing <br> ourselves to creat new digital experiences.
+                </h2>
+
+                <!--Intro button-->
+                <div class="intro__section-question">
+                    <h5>
+                        <p>Have a question, </p>
+                        <input type="submit" value="Click here">
+                        <p> to contact us! </p></h5>
+                </div>
+        </div>
+    </section>
+</main>
+<main>
+    <!--projects -->
+    <!--section 1-->
+     <section class="projects__outer-container">
+        <article class="projects__inner-container">
+            <div class="projects__article-image-wrapper-v1">
+                <div class="projects__card">
+                    <h2 class="projects__title">rolling stone</h2>
+                    <div class="projects__squiggle_line_strip">
+                            <embed src="./assets/squiggle_line.svg">
+                    </div>
+                    <p class="projects__text">You know Rolling Stone. It's the definitive<br>voice in music, politics and culture. It's a<br>global icon.</p>
+                    <a class="projects__link" href="">view project</a>
+                </div>
+                <div class="projects__image-wrapper"></div>
+                <img class="projects__article-image" src="./assets/work-image-01.jpeg" alt="variety"/>
+            </div>
+
+            <!--sectie 2. projects -->
+
+            <div class="projects__article-image-wrapper-v2">
+                <div class="projects__card">
+                    <h2 class="projects__title">Variety</h2>
+                    <div class="squiggle_line_strip">
+                        <object>
+                            <embed src="./assets/squiggle_line.svg">
+                        </object>
+                    </div>
+                    <p class="projects__text">Variety is an industry leader for breaking<br>entertainment news, revieuws
+                        and box<br>office results with archive of content<br>dating back to 1905.</p>
+                    <a class="projects__link" href="">view project</a>
+                </div>
+                <div class="projects__image-wrapper"></div>
+                <img class="projects__article-image" src="./assets/work-image-02.jpeg" alt="variety"/>
+            </div>
+
+
+         <!--sectie 3. projects  worth -->
+            <div class="projects__article-image-wrapper-v3">
+                <div class="projects__card">
+                    <h2 class="projects__title">Worth</h2>
+                    <div class="squiggle_line_strip">
+                        <object>
+                            <embed src="./assets/squiggle_line.svg">
+                        </object>
+                    </div>
+                    <p class="projects__text">A global media platform connecting a <br> community that embraces worth
+                        beyond<br>wealth.</p>
+                    <a class="projects__link" href="">view project</a>
+                </div>
+                <div class="projects__image-wrapper"></div>
+                <img class="projects__article-image" src="./assets/work-image-03.jpeg" alt="variety"/>
+            </div>
+     </section>
+
+            <section class="services__outer-container">
+                <div class="services__inner-container">
+                    <div class="services-card">
+                        <svg class="services__icon"></svg>
+                        <h3 class="services__title">Webdesign</h3>
+                        <p class="services__text">Good web design is how companies stand out from their competiters.
+                            Hogh quality web design leads to increased user conversion and engagement. Through a proven
+                            webdesign process, we help clients launch websites and products that improve on their
+                            bottonm line.</p>
+                    </div>
+                    <div class="services-card">
+                        <svg class="services__icon"></svg>
+                        <h3 class="services__title">Web Development</h3>
+                        <p class="services__text">Modern websites need te be responsive and fully functional at all sizes. We develop all of our sites with a mobile first approach and ensure that our code quality is clean, organised and preformant, already have a design but need it developed? We are here to help!</p>
+                    </div>
+                    <div class="services-card">
+                        <svg class="services__icon"></svg>
+                        <h3 class="services__title">User Experience</h3>
+                        <p class="services__text">In order to build succesfull products you have to onderstand the user. We create user personas, wireframes and prototypes to test with users. This allows ua to gather feedback which helps to shape the product and can quickly eliminate potential risks - saving you time and money</p>
+                    </div>
+                    <div class="services-card">
+                        <svg class="services__icon"></svg>
+                        <h3 class="services__title">Log Design +Branding</h3>
+                        <p class="services__text">Nike, Apple, Coca-Cola, Starbucks. What do all of these brands have in common? Easily recognizable logo's and brand identity. The best brands stand out from the crowd by heaving a clear and unique point of view. We will work with you to understand your vision and help create a unique brand identity and style for your company. </p>
+                    </div>
+                    <div class="services-card">
+                        <svg class="services__icon"></svg>
+                        <h3 class="services__title">SEO</h3>
+                        <p class="services__text">Do you want to rank your site higher in search results? Google is constantly changing their algorithms for how their rank pages. Don't worry about constantly playing catch-up. We will make sure your website is optimized, providing you the best opportunities for organic search exposure.</p>
+                    </div>
+                    <div class="services-card">
+                        <svg class="services__icon"></svg>
+                        <h3 class="services__title">Copy Writing</h3>
+                        <p class="services__text">Brand messaging needs to be clear, direct and easy to understand to be effective. A unique tone of voice will help you to mstand out from the crowd and build brand loyalty. we work with you to establish your brand bible and ensure your message is focused and tageted.</p>
+                    </div>
+                </div>
+            </section>
+
+    <section class="holder__outer-container">
+        <div class="holder__inner-container">
+                <div class="holder__hero-section">
+                    <h1 class="holder__title">Let's work together</h1>
+                    <h3></h3>
+                    <p class="holder__payoff">Have a question? Need a quote? Let us know!</p>
+                    <label for="username">
+                        Naam:
+                        <input id="username" type="text" name="username"/>
+                    </label>
+                    <label for="Email">
+                        Email:
+                        <input id="Email" type="email" name="Email"/>
+                    </label>
+                    <label for="username">
+                        Message:
+                        <input id="message" type="text" name="message"/>
+                    </label>
+                    <button class="button--active">Send</button>
+                </div>
+
+    </form>
+</div>
+    </section>
+</main>
+
+<footer class="footer-small">
+    Business website opdracht © NOVI Hogeschool 2022
+</footer>
+
 </body>
 </html>
+
+<!-- -->
